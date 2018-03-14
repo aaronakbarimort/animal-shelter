@@ -1,26 +1,26 @@
-.column1 {
-  width: 400px;
-  float: left;
-  padding: 5px;
-  background-color: skyblue;
-  margin-right: 10px;
-  border: 5px solid red;
+.container {
+  width: 800px;
+  margin: 0 auto;
 }
 
-.column2 {
-  width: 400px;
+.column {
   float: left;
-  padding: 5px;
-  background-color: yellow;
-  margin-right: 10px;
-  border: 5px solid skyblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: grey;
 }
 
-.column3 {
-  width: 400px;
-  float: left;
-  padding: 5px;
-  background-color: red;
-  margin-right: 10px;
-  border: 5px solid yellow;
+img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 1000px){
+  .column {
+    width: 300px;
+    margin: 10px;
+  }
 }
